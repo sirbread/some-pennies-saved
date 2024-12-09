@@ -12,7 +12,8 @@ client.remove_command('help')
 dbdir = "db.json"
 
 def admin(ctx):
-    return ctx.author.id in [910711848184193084]
+    return ctx.author.id in [123]
+#replace the 123 and input the admin's user id here^
 
 @client.event
 async def on_ready():
@@ -481,3 +482,4 @@ async def agag(ctx, member : discord.Member, amount):
         await ctx.reply("The person whose money you're trying to set needs to be in the database! (they need to use `!create`)")
 
 client.run("you-extremely-skibidi-rizz-token")
+#replace this placeholder with your real very skibidi bot token ^^ 
